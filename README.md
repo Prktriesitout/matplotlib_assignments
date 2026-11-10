@@ -19,4 +19,4 @@ Pie Charts: Percentage breakdowns of automobile origins (e.g., USA, Europe, Japa
 🛠️ Tech Stack:
 
 Python (Pandas, NumPy, Matplotlib)
-Tip: Before committing, you might want to fix the minor KeyError: 'Country' in the pie chart cell. In newer versions of pandas, .value_counts() returns a Series where the index contains the original values. When you run .reset_index(), the columns become origin (or whatever the column name was) and count instead of index and Count.
+
